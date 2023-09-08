@@ -1,0 +1,110 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 100vw!important;
+  max-height: 100vh!important;
+}
+
+.nav-icon {
+  border-color: #000;
+  width: 100px;
+  height: 100px;
+}
+
+.primary-btn {
+  background-color: #6cc24a;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background-color: transparent;
+  border-color: #6cc24a;
+  color: #6cc24a;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border-color: #6cc24a;
+  color: #6cc24a;
+}
+
+.secondary-btn:hover {
+  background-color: #6cc24a;
+  color: #fff;
+}
+
+.edit-btn {
+  background-color: rgb(237, 123, 16);
+  color: #000;
+}
+
+.delete-btn {
+  background-color: #f72828;
+  color: #000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#message-div {
+  border: 2px solid lightgrey;
+  background-color: #f8f9fa;
+  padding: 30px;
+}
+/* button {
+  --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgba(17, 222, 55, 0.506);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+
+button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+button:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+}
+
+button:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+    0 0 2.5em 2em var(--glow-spread-color),
+    inset 0 0 .5em .25em var(--glow-color);
+} */
